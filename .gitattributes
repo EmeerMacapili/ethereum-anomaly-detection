@@ -1,0 +1,14 @@
+# Language detection rules  
+* text=auto eol=lf
+dist/* linguist-vendored
+
+public/index.html linguist-vendored
+
+public/** linguist-vendored
+*.png binary
+Cargo.lock linguist-generated
+src/**/*.rs linguist-detectable
+*.svg text
+
+*.min.js linguist-generated
+*.json linguist-detectable=false
